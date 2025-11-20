@@ -248,7 +248,7 @@ async def dyno_usage(dyno):
 
     await asyncio.sleep(1.5)
 
-    return await dyno.reply("💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠\n"
+    return await dyno.reply("𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡\n"
     "**⬇️ Dyno istifadəsi**:\n\n"
                            f"⏳ `İstifadə etdiyi dyno saatı`\n**👤 App adı - ****({HEROKU_APPNAME})**:\n"
                            f"     •  `{AppHours}` **saat**  `{AppMinutes}` **dəqiqə**  "
@@ -308,7 +308,7 @@ async def dyno_usage(dyno):
 
     await asyncio.sleep(1.5)
 
-    return await dyno.edit("💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠\n"
+    return await dyno.edit("𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡\n"
     "**⬇️ Dyno istifadəsi**:\n\n"
                            f"⏳ `İstifadə etdiyi dyno saatı`\n**👤 App adı - ****({HEROKU_APPNAME})**:\n"
                            f"     •  `{AppHours}` **saat**  `{AppMinutes}` **dəqiqə**  "
@@ -323,7 +323,7 @@ async def dyno_usage(dyno):
 
 
 
-luna = "userbot/LunaUserbot.jpg"
+fatime = "userbot/FatimeUb.jpg"
 @register(outgoing=True, pattern=r"^\.loq$")
 async def get_heroku_logs(dyno):
     try:
@@ -339,11 +339,11 @@ async def get_heroku_logs(dyno):
     
     try:
         log_data = app.get_log()
-        log_filename = "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 Logs.txt"
+        log_filename = "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Logs.txt"
         with open(log_filename, "w", encoding="utf-8") as log_file:
             log_file.write(log_data)
         await dyno.client.send_file(
-            dyno.chat_id, log_filename, thumb=luna, caption="Heroku Loqları"
+            dyno.chat_id, log_filename, thumb=fatime, caption="Heroku Loqları"
         )
 
     except Exception as e:

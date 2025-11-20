@@ -1,7 +1,7 @@
 import time
 from userbot.events import register
 from userbot import START_TIME
-from userbot import LUNA_USER
+from userbot import FATIME_USER
 
 @register(outgoing=True, pattern="^.uptime$")
 async def isleme_muddeti(luna):
@@ -19,4 +19,4 @@ async def isleme_muddeti(luna):
     if deqiqe > 0 or saat > 0 or gun > 0:
         vaxt += f"{deqiqe} dəqiqə, "
     vaxt += f"{saniye} saniyə"
-    await luna.edit(f"**Sahibim: {LUNA_USER}\nLunaUserbot'un işləmə müddəti:**\n `{vaxt}`")
+    await luna.edit(f"**Sahibim: {FATIME_USER}\nLunaUserbot'un işləmə müddəti:**\n `{vaxt}`") 

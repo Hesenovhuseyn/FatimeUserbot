@@ -6,10 +6,9 @@ from os import remove
 from time import gmtime, strftime, localtime
 from traceback import format_exc
 from userbot.language import get_value
-
 from telethon import events
-
 from userbot import bot, BOTLOG_CHATID, LOGSPAMMER, PATTERNS, ADMINS, DEV
+
 LANG = get_value("errors")
 
 def register(**args):
@@ -78,11 +77,11 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", localtime() )
 
-                    lunatext = str(check.text)
+                    fatimetext = str(check.text)
                     text = "**✥ 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ ΣRROR ✥**\n\n"
                     
-                    if len(lunatext)<10:
-                        text += LANG['CMD'].format(lunatext=lunatext)
+                    if len(fatimetext)<10:
+                        text += LANG['CMD'].format(fatimetext=fatimetext)
                     text += LANG['ERR']
                     text += LANG['LINK']
                     text += LANG['AB']
@@ -115,7 +114,7 @@ def register(**args):
                     file = open("ΣRROR.log", "w+")
                     file.write(ftext)
                     file.close()
-                    Luna = "userbot/FatimeUb.jpg"
+                    Fatime = "userbot/FatimeUb.jpg"
      
                     if LOGSPAMMER:
                         await check.client.respond("`Bağışlayın, UserBot'um çökdü.\
@@ -123,7 +122,7 @@ def register(**args):
 
                     await check.client.send_file(send_to,
                                                  "ΣRROR.log",
-                                                 thumb=Luna,
+                                                 thumb=Fatime,
                                                  caption=text)
                     remove("error.log")
             else:

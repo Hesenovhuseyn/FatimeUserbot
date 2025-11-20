@@ -171,7 +171,6 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # Qarşılama
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
-
 # Last.fm
 BIO_PREFIX = os.environ.get("BIO_PREFIX", "@FatimeUb | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
@@ -328,7 +327,7 @@ with bot:
     moduller = CMD_HELP
     me = bot.get_me()
     uid = me.id
-    LUNA_USER = f"[{me.first_name}](tg://user?id={me.id})"
+    FATIME_USER = f"[{me.first_name}](tg://user?id={me.id})"
 
     try:
         @tgbot.on(NewMessage(pattern='/start'))
@@ -354,7 +353,7 @@ with bot:
                 )
             elif event.query.user_id == uid and query == "@Botlar_Destek":
                 text = "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __işləyir__\n\n"
-                text += f"👤 **Sahibim** {LUNA_USER}\n __Qulluğunda hazıram__"
+                text += f"👤 **Sahibim** {FATIME_USER}\n __Qulluğunda hazıram__"
                 result = builder.document(
                      file=botgif,
                      title="𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
@@ -421,7 +420,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
             if not event.query.user_id == uid:
                 return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
             text="**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __işləyir__"
-            text += f"👤 **Sahibim** {LUNA_USER}\n __Qulluğunda hazıram__"
+            text += f"👤 **Sahibim** {FATIME_USER}\n __Qulluğunda hazıram__"
             buttons = [
                 [Button.inline("📲Plugin Listi", data="komek")],
                 [Button.inline("🛠️Bot Configləri", data="config")]
