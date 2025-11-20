@@ -8,7 +8,7 @@ import requests
 from telethon.tl.types import InputMessagesFilterDocument
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 from telethon.tl.functions.channels import GetMessagesRequest
-from . import BRAIN_CHECKER, BOT_TOKEN, CMD_HELP, LUNA_VERSION, PATTERNS
+from . import BRAIN_CHECKER, BOT_TOKEN, CMD_HELP, FATIME_VERSION, PATTERNS
 from .modules import ALL_MODULES
 import userbot.modules.sql_helper.mesaj_sql as MSJ_SQL
 import userbot.modules.sql_helper.galeri_sql as GALERI_SQL
@@ -20,7 +20,7 @@ from . import LANGUAGE, LOGS, bot, PLUGIN_CHANNEL_ID
 from json import loads, JSONDecodeError
 import re
 import userbot.cmdhelp
-from userbot.modules.sql_helper.lunauserbot.assistantbot import lunaassistantbot, heroku_qurulum
+from userbot.modules.sql_helper.fatimeub.assistantbot import fatimeassistantbot, heroku_qurulum
 StartTime = time.time()
 
 DIZCILIK_STR = [
@@ -144,7 +144,7 @@ try:
         exit(1)
 
     idim = bot.get_me().id
-    dtobl = requests.get('https://raw.githubusercontent.com/Hesenovhuseyn/LunaUserbot//master/upx.json').json()
+    dtobl = requests.get('https://raw.githubusercontent.com/Hesenovhuseyn/FatimeUserbot//master/upx.json').json()
     if idim in dtobl:
         LOGS.info("Kullanıcı botu kapatıyor.")
         bot.disconnect()
@@ -160,7 +160,7 @@ try:
 
     # PLUGIN MESAJLARI AYARLIYORUZ
     PLUGIN_MESAJLAR = {}
-    ORJ_PLUGIN_MESAJLAR = {"alive": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 𝓐𝓴𝓽𝓲𝓿𝓭𝓲𝓻...",
+    ORJ_PLUGIN_MESAJLAR = {"alive": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ 𝓐𝓴𝓽𝓲𝓿𝓭𝓲𝓻...",
                            "malive": "https://files.catbox.moe/dnny3y.mp4",
                            "afk": f"{str(choice(AFKSTR))}", 
                            "kickme": "Bye-bye mən qrupdan çıxdım 🥰", 
@@ -171,7 +171,7 @@ try:
                            "approve": "{mention}, mənə mesaj göndərə bilərsən!", 
                            "disapprove": "{mention}, artıq mənə mesaj göndərə bilmərsən!", 
                            "block": "{mention}, bloklandın!", 
-                           "restart": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠💻 𝚢𝚎𝚗𝚒𝚍ə𝚗 𝚋𝚊ş𝚕𝚊𝚍ı𝚕ı𝚛. . ."}
+                           "restart": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡💻 𝚢𝚎𝚗𝚒𝚍ə𝚗 𝚋𝚊ş𝚕𝚊𝚍ı𝚕ı𝚛. . ."}
 
     PLUGIN_MESAJLAR_TURLER = ["alive", "malive", "afk", "kickme", "pm", "dızcı", "ban", "mute", "approve", "disapprove", "block", "restart"]
     for mesaj in PLUGIN_MESAJLAR_TURLER:
@@ -265,8 +265,8 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info("Botunuz işleyir! Her hansi bir söhbete .alive yazaraq Test edin."
-          " Yardıma ehtiyacınız varsa, Destek qrupumuza buyurun t.me/lunadestek")
-LOGS.info(f"Bot versiyası:💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 {LUNA_VERSION}")
+          " Yardıma ehtiyacınız varsa, Destek qrupumuza buyurun t.me/Botlar_Destek")
+LOGS.info(f"Bot versiyası:𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ {FATIME_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
@@ -280,7 +280,7 @@ app, config = heroku_qurulum()
 if config:
     if "BOT_TOKEN" not in config:
         loop = asyncio.get_event_loop()
-        loop.run_until_complete(lunaassistantbot(app, config))
+        loop.run_until_complete(fatimeassistantbot(app, config))
 
 
 bot.run_until_disconnected()

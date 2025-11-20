@@ -36,11 +36,11 @@ ASYNC_POOL = []
 
 if CONSOLE_LOGGER_VERBOSE:
     basicConfig(
-        format="%(asctime)s - @LunaUserbot - %(levelname)s - %(message)s",
+        format="%(asctime)s - @FatimeUb - %(levelname)s - %(message)s",
         level=DEBUG,
     )
 else:
-    basicConfig(format="%(asctime)s - @LunaUserbot - %(levelname)s - %(message)s",
+    basicConfig(format="%(asctime)s - @FatimeUb - %(levelname)s - %(message)s",
                 level=INFO)
 LOGS = getLogger(__name__)
 
@@ -66,9 +66,9 @@ if not LANGUAGE in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
     LOGS.info("Bilinməyən bir dil seçdiniz. Buna görə DEFAULT işlədilir.")
     LANGUAGE = "DEFAULT"
     
-# lunauserbot versiyasi ekmek oglum 
+# FatimeUserbot versiyasi ekmek oglum 
 
-LUNA_VERSION = "x7.6.2"
+FATIME_VERSION = "x7.6.2"
 
 # SilgiUserbot Versiyası
 SILGI_VERSION = "x7.6.2"
@@ -102,7 +102,7 @@ HEROKU_APPNAME = os.environ.get("HEROKU_APPNAME", None)
 HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 # Yenilənmə
-UPSTREAM_REPO_URL = "https://github.com/Hesenovhuseyn/LunaUserbot.git"
+UPSTREAM_REPO_URL = "https://github.com/Hesenovhuseyn/FatimeUserbot.git"
 
 # Konsol
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -122,7 +122,7 @@ AUTO_PP = os.environ.get("AUTO_PP", None)
 # Alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 DEFAULT_NAME = os.environ.get("DEFAULT_NAME", None)
-BREND_MENTION = f"LunaUserbot"
+BREND_MENTION = f"FatimeUserbot"
 BREND_VERSION = "4.5"
 DTO_VERSION = "4.5"
 # Warn modül
@@ -156,7 +156,7 @@ LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 # Alive şəkil
 IMG = os.environ.get(
     "IMG",
-    "https://files.catbox.moe/unuq2j.jpg")
+    "https://files.catbox.moe/6v33jr.jpg")
 
 # Anti Spambot
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
@@ -173,9 +173,9 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "@lunauserbot | ")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "@FatimeUb | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
-DEV = [6799203666]
+DEV = [7946615064]
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
 LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
@@ -200,7 +200,7 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
 # Inline bot
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
-GRUP_ID = [-1002250937699]
+GRUP_ID = [-1003394449062]
 # Genius
 GENIUS = os.environ.get("GENIUS", None)
 CMD_HELP = {}
@@ -210,19 +210,19 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "@lunauserbot Paketi")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "@FatimeUb Paketi")
 
 # Avto
 AVTO_Q = sb(os.environ.get("AVTO_Q", "True"))
 
 # Pattern
 PATTERNS = os.environ.get("PATTERNS", ".,")
-WHITELIST = [6799203666]
-ADMINS = [6799203666]
+WHITELIST = [7946615064]
+ADMINS = [7946615064]
 START_TIME = int(os.environ.get("START_TIME", time.time()))
 # Təhlükəli pluginlər üçün
 TEHLUKELI = ["SESSION", "HEROKU_APIKEY", "API_HASH", "API_KEY", ".session.save"]
-botgif = "https://files.catbox.moe/dnny3y.mp4"
+botgif = "https://files.catbox.moe/ne42oc.mp4"
 # CloudMail.ru və MEGA.nz
 if not os.path.exists('bin'):
     os.mkdir('bin')
@@ -252,7 +252,7 @@ if os.path.exists("dtobrain.check"):
 else:
     LOGS.info("Braincheck faylı yoxdur, getirilir...")
 
-URL = 'https://raw.githubusercontent.com/Hesenovhuseyn/LunaUserbot/master/upbrain.check'
+URL = 'https://raw.githubusercontent.com/Hesenovhuseyn/FatimeUserbot/master/upbrain.check'
 with open('upbrain.check', 'wb') as load:
     load.write(get(URL).content)
 def create_button_layout(items, row_size=3):
@@ -318,9 +318,8 @@ def butonlastir(sayfa, moduller):
 with bot:
     if AVTO_Q:
         try:
-            bot(JoinChannelRequest("@lunadestek"))
-            bot(JoinChannelRequest("@lunasupport"))
-            bot(JoinChannelRequest("@lunaplugins"))
+            bot(JoinChannelRequest("@DevZoneAz"))
+            bot(JoinChannelRequest("@Botlar_Destek"))
             
             
         except:
@@ -335,9 +334,9 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam mən `💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 `! Mən sahibimə (`@{me.username}`) kömək olmaq üçün varam, yəni sənə köməkçi ola bilmərəm :/ Ama sən da bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 quraşdıra bilərsən; Qrupa bax` @LunaDestek')
+                await event.reply(f'`Salam mən `𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ `! Mən sahibimə (`@{me.username}`) kömək olmaq üçün varam, yəni sənə köməkçi ola bilmərəm :/ Ama sən da bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ quraşdıra bilərsən; Qrupa bax` @Botlar_Destek')
             else:
-                await event.reply(f'`💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠`')
+                await event.reply(f'`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡`')
 
         @tgbot.on(InlineQuery)  
         async def inline_handler(event):
@@ -349,16 +348,16 @@ with bot:
                 veriler = (butonlastir(0, sorted(CMD_HELP)))
                 result = await builder.article(
                     f"Xaiş sadəcə .kömek əmri ilə işladin",
-                    text=f"**💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** [LunaUserbot](https://t.me/LunaDestek) __💻__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** 1/{veriler[0]}",
+                    text=f"**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __💻__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** 1/{veriler[0]}",
                     buttons=veriler[1],
                     link_preview=False
                 )
-            elif event.query.user_id == uid and query == "@LunaDestek":
-                text = "**💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** [LunaUserbot](https://t.me/LunaDestek) __işləyir__\n\n"
+            elif event.query.user_id == uid and query == "@Botlar_Destek":
+                text = "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __işləyir__\n\n"
                 text += f"👤 **Sahibim** {LUNA_USER}\n __Qulluğunda hazıram__"
                 result = builder.document(
                      file=botgif,
-                     title="💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
+                     title="𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
                      text=text,
                      buttons=[
                          [custom.Button.inline("📲Plugin Listi", data="komek")],
@@ -378,16 +377,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
-                    text="""[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)'u işlətməyi yoxlayın!
+                    "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
+                    text="""[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)'u işlətməyi yoxlayın!
 Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə edə bilmərsiz! Altdakı GitHub adresindən bütün qurulum haqda məlumat var.""",
                     buttons=[
-                        [custom.Button.url("Dəstək qrupuna Qatıl", "https://t.me/LunaDestek"), custom.Button.url(
+                        [custom.Button.url("Dəstək qrupuna Qatıl", "https://t.me/Botlar_Destek"), custom.Button.url(
                             "Sahibim", "https://t.me/huseynh")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/Hesenovhuseyn/LunaUserbot")],
+                            "GitHub", "https://github.com/Hesenovhuseyn/FatimeUserbot")],
                         [custom.Button.url(
-                            "Qurulum botu", "https://t.me/LunaQurulumBot")]
+                            "Qurulum botu", "https://t.me/FatimeQurulumBot")]
                     ],
                     link_preview=False
                 )
@@ -396,32 +395,32 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(callbackquery.CallbackQuery(data=compile(b"sayfa\((.+?)\)")))
         async def sayfa(event):
             if not event.query.user_id == uid: 
-                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)
+                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             veriler = butonlastir(sayfa, CMD_HELP)
             await event.edit(
-                f"**💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** [LunaUserbot](https://t.me/LunaDestek) __işləyir__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** {sayfa + 1}/{veriler[0]}",
+                f"**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __işləyir__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** {sayfa + 1}/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False
             )
         @tgbot.on(callbackquery.CallbackQuery(data=compile(b"komek")))
         async def inline_handler(event):
             if not event.query.user_id == uid:
-                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)   
+                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)   
             query = event.data.decode("UTF-8")
             veriler = butonlastir(0, sorted(CMD_HELP))
             buttons = veriler[1]  
             await event.answer("📱Plugin listi açıldı", cache_time=1)
             await event.edit(
-                text=f"**💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** [LunaUserbot](https://t.me/LunaDestek) __💻__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** 1/{veriler[0]}",
+                text=f"**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __💻__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Səhifə:** 1/{veriler[0]}",
                 buttons=buttons,  
                 link_preview=False
             )
         @tgbot.on(events.CallbackQuery(data=re.compile(b"evvel")))
         async def main_menu(event):
             if not event.query.user_id == uid:
-                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)
-            text="**💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** [LunaUserbot](https://t.me/LunaDestek) __işləyir__"
+                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
+            text="**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [FatimeUserbot](https://t.me/Botlar_Destek) __işləyir__"
             text += f"👤 **Sahibim** {LUNA_USER}\n __Qulluğunda hazıram__"
             buttons = [
                 [Button.inline("📲Plugin Listi", data="komek")],
@@ -433,7 +432,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(events.CallbackQuery(data=re.compile(b"config")))
         async def config_handler(event):
             if event.query.user_id != uid:
-                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True) 
+                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True) 
     
             needed_keys = ["BOT_USERNAME", "BOT_TOKEN", "BOTLOG_CHATID", "API_HASH", "PM_AUTO_BAN", "TZ", "LANGUAGE", "COUNTRY", "PM_AUTO_BAN_LIMIT", "START_TIME", "WARN_LIMIT", "WARN_MODE"]  
             config_vars = app.config().to_dict()
@@ -456,7 +455,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(events.CallbackQuery(data=re.compile(b"config_edit:(.+)")))
         async def config_edit(event):
             if not event.query.user_id == uid: 
-                        return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)
+                        return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
             key = event.data_match.group(1).decode("UTF-8")
             user_id = event.query.user_id
             config_vars = app.config().to_dict()
@@ -473,7 +472,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(callbackquery.CallbackQuery(data=compile(b"bilgi\[(\d*)\]\((.*)\)")))
         async def bilgi(event):
             if not event.query.user_id == uid: 
-                return await event.answer("❌  Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)
+                return await event.answer("❌  Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
 
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             komut = event.data_match.group(2).decode("UTF-8")
@@ -493,7 +492,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(callbackquery.CallbackQuery(data=compile(b"komut\[(.*)\[(\d*)\]\]\((.*)\)")))
         async def komut(event):
             if not event.query.user_id == uid: 
-                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 qur.", cache_time=0, alert=True)
+                return await event.answer("❌ Hey! Məni əlləmə! Özünə bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ qur.", cache_time=0, alert=True)
 
             cmd = event.data_match.group(1).decode("UTF-8")
             sayfa = int(event.data_match.group(2).decode("UTF-8"))
@@ -553,7 +552,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
 SON_GORULME = 0
 COUNT_MSG = 0
 USERS = {}
-BRAIN_CHECKER = [6799203666]
+BRAIN_CHECKER = [7946615064]
 COUNT_PM = {}
 LASTMSG = {}
 ENABLE_KILLME = True

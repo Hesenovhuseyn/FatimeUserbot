@@ -79,7 +79,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", localtime() )
 
                     lunatext = str(check.text)
-                    text = "**✥ 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 ΣRROR ✥**\n\n"
+                    text = "**✥ 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ ΣRROR ✥**\n\n"
                     
                     if len(lunatext)<10:
                         text += LANG['CMD'].format(lunatext=lunatext)
@@ -87,7 +87,7 @@ def register(**args):
                     text += LANG['LINK']
                     text += LANG['AB']
                     
-                    ftext = "--------💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 ΣRROR--------\n"
+                    ftext = "--------𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ ΣRROR--------\n"
                     ftext += LANG['DATE'] + date
                     ftext += LANG['ID'] + str(check.chat_id)
                     ftext += LANG['USERID'] + str(check.sender_id)
@@ -97,7 +97,7 @@ def register(**args):
                     ftext += str(format_exc())
                     ftext += LANG['TEXT']
                     ftext += str(sys.exc_info()[1])
-                    ftext += "\n\n--------💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 ΣRROR--------"
+                    ftext += "\n\n--------𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ ΣRROR--------"
 
                     command = "git log --pretty=format:\"%an: %s\" -0"
 

@@ -7,7 +7,7 @@ from random import randint
 from userbot import BOT_TOKEN, HEROKU_APIKEY, HEROKU_APPNAME, bot
 from userbot import me
 
-Luna = os.path.join(os.getcwd(), "userbot", "LunaUserbot.jpg")
+Fatime = os.path.join(os.getcwd(), "userbot", "FatimeUb.jpg")
 
 def heroku_qurulum():
     if HEROKU_APIKEY and HEROKU_APPNAME:
@@ -28,13 +28,13 @@ async def get_botfather_message():
                 return token
     return None
 
-async def lunaassistantbot(app, config):
+async def fatimeassistantbot(app, config):
     bot_father = "@BotFather"
     await bot(UnblockRequest(bot_father))
 
     me = await bot.get_me()
-    bot_name = f"{me.first_name} LunaUserbot Assistant"
-    username = f"lunauserbot{randint(1, 1000)}bot" if me.username else f"luna{str(me.id)[5:]}bot"
+    bot_name = f"{me.first_name} FatimeUb Assistant"
+    username = f"fatimeub{randint(1, 1000)}bot" if me.username else f"Fatime{str(me.id)[5:]}bot"
 
     await bot.send_message(bot_father, "/newbot")
     await asyncio.sleep(2)
@@ -61,20 +61,20 @@ async def lunaassistantbot(app, config):
     await asyncio.sleep(1)
     await bot.send_message(bot_father, f"@{username}")
     await asyncio.sleep(1)
-    await bot.send_message(bot_father, f"{me.first_name} üçün [LunaUserbot](t.me/HuseynH) tərəfindən hazırlanmış assistant botuyam")
+    await bot.send_message(bot_father, f"{me.first_name} üçün [Huseyn](t.me/HuseynH) tərəfindən hazırlanmış assistant botuyam")
     await asyncio.sleep(3)
 
     await bot.send_message(bot_father, "/setdescription")
     await asyncio.sleep(1)
     await bot.send_message(bot_father, f"@{username}")
     await asyncio.sleep(1)
-    await bot.send_message(bot_father, f"🖥 Sahib ~ {me.first_name} \n\n Created By ~ @LunaDestek ")
+    await bot.send_message(bot_father, f"🖥 Sahib ~ {me.first_name} \n\n Created By ~ @Botlar_Destek ")
     await asyncio.sleep(2)
     await bot.send_message(bot_father, "/setuserpic")
     await asyncio.sleep(2)
     await bot.send_message(bot_father, f"@{username}")
     await asyncio.sleep(1)
-    await bot.send_file(bot_father, Luna)
+    await bot.send_file(bot_father, Fatime)
     config["BOT_TOKEN"] = token
     config["BOT_USERNAME"] = username
 async def main():
@@ -82,7 +82,7 @@ async def main():
     if not app:
         print("❌ Heroku API açarı və ya app adı tapılmadı.")
         return
-    await lunaassistantbot(app, config)
+    await fatimeassistantbot(app, config)
 
 if __name__ == "__main__":
     asyncio.run(main())
