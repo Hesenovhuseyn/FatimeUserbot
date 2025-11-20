@@ -3,7 +3,7 @@ import requests
 import aiohttp
 import aiofiles
 from userbot.events import register
-from userbot import LUNA_VERSION
+from userbot import FATIME_VERSION
 from userbot.cmdhelp import CmdHelp
 from bs4 import BeautifulSoup
 

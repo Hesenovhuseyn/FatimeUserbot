@@ -100,7 +100,7 @@ async def _(event):
             await event.client.send_file(
                 entity=event.chat_id,
                 file=new_required_file_name,
-                caption=f"@lunauserbot",
+                caption=f"@fatimeub",
                 allow_cache=False,
                 silent=True,
                 force_document=force_document,

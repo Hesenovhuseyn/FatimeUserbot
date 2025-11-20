@@ -5,7 +5,7 @@ from telethon import events
 import asyncio
 import random
 
-mesaj = f"```Video yükləndi.\n💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠```"
+mesaj = f"```Video yükləndi.\n𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡```"
 YUKLEYICI_BOT = "HK_tiktok_bot"
 
 async def gosterici(event, uzunluq=6):

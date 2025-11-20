@@ -12,8 +12,8 @@ RUN pip install wheel
 RUN pip install --upgrade pip setuptools
 RUN apt-get update && apt-get install -y build-essential
 RUN python3 --version
-RUN git clone https://github.com/Hesenovhuseyn/LunaUserbot /root/LunaUserbot
-WORKDIR /root/LunaUserbot/
+RUN git clone https://github.com/Hesenovhuseyn/FatimeUserbot /root/FatimeUserbot
+WORKDIR /root/FatimeUserbot/
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 

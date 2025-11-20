@@ -26,7 +26,7 @@ async def clone(event):
         return
     
     if replied_user.id in BRAIN_CHECKER or replied_user.id in WHITELIST:
-        await event.edit(LANG['LUNA'])
+        await event.edit(LANG['FATIME'])
         return
 
     me = await event.client.get_me()

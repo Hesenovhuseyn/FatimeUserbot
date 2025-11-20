@@ -38,7 +38,7 @@ async def cevir(event):
 
         im = Image.open(foto).convert("RGB")
         im.save("sticker.png", "png")
-        await event.client.send_file(event.chat_id, "sticker.png", reply_to=rep_msg, caption="[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](@LunaDestek) `ilə fotoya çevirildi.`")
+        await event.client.send_file(event.chat_id, "sticker.png", reply_to=rep_msg, caption="[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](@Botlar_Destek) `ilə fotoya çevirildi.`")
 
         await event.delete()
         os.remove("sticker.png")
@@ -63,7 +63,7 @@ async def cevir(event):
             indir = await rep_msg.download_media()
             ses = await asyncio.create_subprocess_shell(f"ffmpeg -i '{indir}' {KOMUT[efekt]} output.mp3")
             await ses.communicate()
-            await event.client.send_file(event.chat_id, "output.mp3", reply_to=rep_msg, caption="[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) `ilƏ efekt edildi.`")
+            await event.client.send_file(event.chat_id, "output.mp3", reply_to=rep_msg, caption="[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) `ilƏ efekt edildi.`")
             
             await event.delete()
             os.remove(indir)

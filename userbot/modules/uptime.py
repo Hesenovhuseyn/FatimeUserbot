@@ -19,4 +19,4 @@ async def isleme_muddeti(luna):
     if deqiqe > 0 or saat > 0 or gun > 0:
         vaxt += f"{deqiqe} dəqiqə, "
     vaxt += f"{saniye} saniyə"
-    await luna.edit(f"**Sahibim: {FATIME_USER}\nLunaUserbot'un işləmə müddəti:**\n `{vaxt}`") 
+    await luna.edit(f"**Sahibim: {FATIME_USER}\n𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡'un işləmə müddəti:**\n `{vaxt}`") 

@@ -1158,23 +1158,23 @@ async def kurucu(event):
 
     await event.edit("╔═════════╗ \n  \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n \t  L \n╚═════════╝")
+    await event.edit("╔═════════╗ \n \t  F \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  L \t  U \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  A \t  \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUN \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  T \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  I \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA U \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  M U \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA US \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  E  \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA USER \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  FATIME USER \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA USERB \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  FATIME USERBOT \n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  LUNA USERBOT \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  LUNA USERBOT @HuseynH\n╚═════════╝")
     await asyncio.sleep(1)
     await event.edit("╔═════════╗ \n  💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 \n╚═════════╝")
     
@@ -1257,7 +1257,7 @@ CmdHelp('modullar').add_command(
 ).add_command(
     'hello', None, ' Balaca Hİ plugini'
 ).add_command(
-    'baba', None, ' [💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) Music Player'
+    'baba', None, ' [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/devzoneaz) Music Player'
  ).add_command(
      'dump', None, ' Yoldan zibil topluyar'
  ).add_command(

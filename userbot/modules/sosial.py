@@ -42,7 +42,7 @@ async def tiktok(event):
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
-                caption=f"[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)",
+                caption=f"[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)",
             )
             await event.client.send_read_acknowledge(conv.chat_id)
             await bot(functions.messages.DeleteHistoryRequest(peer=chat, max_id=0))

@@ -3,8 +3,8 @@ from asyncio.subprocess import PIPE as asyncPIPE
 from platform import uname
 from shutil import which
 from os import remove
-from userbot import LUNA_VERSION
-from userbot import LUNA_USER, CMD_HELP
+from userbot import FATIME_VERSION
+from userbot import FATIME_USER, CMD_HELP
 from telethon.tl.patched import Message
 from userbot.events import register
 from userbot.main import PLUGIN_MESAJLAR
@@ -130,12 +130,12 @@ async def malive(event):
         f"┣• {LANG['OK']}\n"
         "╰━━━━━━━━━━━━━━━━━━━\n\n"
         f"╭━━━➤ 『 {LANG['INFO']} 』\n"
-        f"┣• 👤 {LANG['NAME']}: {LUNA_USER}\n"
+        f"┣• 👤 {LANG['NAME']}: {FATIME_USER}\n"
         f"┣• ⚙️ {LANG['PYTHON']}: `{python_version()}`\n"
-        f"┣• 🛠️ {LANG['VERSION']}: `{LUNA_VERSION}`\n"
+        f"┣• 🛠️ {LANG['VERSION']}: `{FATIME_VERSION}`\n"
         f"┣• 📚 {LANG['PLUGIN_COUNT']}: `{len(CMD_HELP)}`\n"
         "╰━━━━━━━━━━━━━━━━━━━\n\n"
-        "#LunaUserbot"
+        "#FatimeUserbot"
     )
     await event.client.send_file(event.chat_id, img, caption=caption)
     await event.delete()
@@ -147,7 +147,7 @@ async def amialive(e):
         await e.edit(PLUGIN_MESAJLAR['alive'].format(
             telethon=version.__version__,
             python=python_version(),
-            luna=LUNA_VERSION,
+            fatime=FATIME_VERSION,
             plugin=len(CMD_HELP),
             id=me.id,
             username='@' + me.username if me.username else f'[{me.first_name}](tg://user?id={me.id})',
@@ -161,7 +161,7 @@ async def amialive(e):
             PLUGIN_MESAJLAR['alive'].text = PLUGIN_MESAJLAR['alive'].text.format(
                 telethon=version.__version__,
                 python=python_version(),
-                luna=LUNA_VERSION,
+                fatime=FATIME_VERSION,
                 plugin=len(CMD_HELP),
                 id=me.id,
                 username='@' + me.username if me.username else f'[{me.first_name}](tg://user?id={me.id})',
