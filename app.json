@@ -1,18 +1,18 @@
 {
-  "name": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
+  "name": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
   "description": "Telegram UserBot",
-  "logo": "https://files.catbox.moe/unuq2j.jpg",
+  "logo": "https://files.catbox.moe/6v33jr.jpg",
   "keywords": [
     "telegram",
     "userbot",
-    "LunaUserbot",
+    "FatimeUserbot",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Hesenovhuseyn/LunaUserbot",
-  "website":   "https://github.com/Hesenovhuseyn/LunaUserbot",
-  "success_url": "https://github.com/Hesenovhuseyn/LunaUserbot",
+  "repository": "https://github.com/Hesenovhuseyn/FatimeUserbot",
+  "website":   "https://github.com/Hesenovhuseyn/FatimeUserbot",
+  "success_url": "https://github.com/Hesenovhuseyn/FatimeUserbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -172,7 +172,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Həmişəlik profil biyoqrafiyası.",
-      "value": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
+      "value": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
       "required": false
     },
     "G_DRIVE_CLIENT_SECRET": {
@@ -212,7 +212,7 @@
     },
     "PAKET_ISMI": {
       "description": "Fırlat əmri paket adını seçin. Paket adı belə olacaq: @İstifadəçiAdın verdiyin dəyər",
-      "value": "@lunauserbot Paketi",
+      "value": "@fatimeub Paketi",
       "required": false
     },
     "AVTO_Q": {
