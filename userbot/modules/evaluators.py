@@ -190,7 +190,7 @@ async def terminal_runner(term):
 CmdHelp('evaluators').add_command(
     'eval', (LANG['EV1']), (LANG['EV2']), 'eval 2+3'
 ).add_command(
-    'exec', (LANG['EX1']), (LANG['EX2']), 'exec print(\"💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠\")'
+    'exec', (LANG['EX1']), (LANG['EX2']), 'exec print(\"𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡\")'
 ).add_command(
     'term', (LANG['EV1']), (LANG['TM']), 'term ls'
 ).add()

@@ -224,7 +224,7 @@ ALPEN_TEMPLATE = """
 ╠╬╬╬╣
 ╠╬╬╬╣ I ♥
 ╠╬╬╬╣ Alpen Gold
-╚╩╩╩╝ 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠
+╚╩╩╩╝ 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡
 """
 
 @register(outgoing=True, pattern=r"^\.(?:alpen)\s?(.)?")
@@ -681,7 +681,7 @@ async def padmin(event):
 
     #if input_str == "hack":
 
-    await event.edit("💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 Bütün icazələri alır xahiş gözləyin..")
+    await event.edit("𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Bütün icazələri alır xahiş gözləyin..")
 
     animation_chars = [
 
@@ -704,7 +704,7 @@ async def padmin(event):
         "**(8) Change Chat Info: ☑️**",
         "**(8) Change Chat Info: ✅**",
         "**Permission Granted Successfully**",
-        "**pRoMooTeD SuCcEsSfUlLy bY: [💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)**"
+        "**pRoMooTeD SuCcEsSfUlLy bY: [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)**"
 
 ]
 
@@ -773,7 +773,7 @@ async def kill(event):
             "------------------>",
             "------>;(^。^)ノ",
             "(￣ー￣) ÖLDÜN",
-            "`Başın sağolsun! Başından vurdum 😈.😈.😈.😈.😈.😈.😈......`\n '#[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)'\n",
+            "`Başın sağolsun! Başından vurdum 😈.😈.😈.😈.😈.😈.😈......`\n '#[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)'\n",
         ]
 
     for i in animation_ttl:
@@ -1104,20 +1104,20 @@ async def music(event):
 
     #if input_str == "music":
 
-    await event.edit("[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) Music Player açılır...")
+    await event.edit("[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) Music Player açılır...")
 
     animation_chars = [
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:51** ▱▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `▶️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:52** ▰▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:53** ▰▰▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:54** ▰▰▰▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:55** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:56** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:57** ▰▰▰▰▰▰▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:58** ▰▰▰▰▰▰▰▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:59** ▰▰▰▰▰▰▰▰▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:00** ▰▰▰▰▰▰▰▰▰▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀  ⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:01** ▰▰▰▰▰▰▰▰▰▰ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏺️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**"
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:51** ▱▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `▶️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:52** ▰▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:53** ▰▰▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:54** ▰▰▰▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:55** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:56** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:57** ▰▰▰▰▰▰▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:58** ▰▰▰▰▰▰▰▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:59** ▰▰▰▰▰▰▰▰▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:00** ▰▰▰▰▰▰▰▰▰▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)  [Music Player](tg://user?id=7378802137)\n\n⠀⠀  ⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:01** ▰▰▰▰▰▰▰▰▰▰ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏺️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**"
         ]
 
     for i in animation_ttl:
@@ -1176,12 +1176,12 @@ async def kurucu(event):
     await asyncio.sleep(1)
     await event.edit("╔═════════╗ \n  LUNA USERBOT @HuseynH\n╚═════════╝")
     await asyncio.sleep(1)
-    await event.edit("╔═════════╗ \n  💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 \n╚═════════╝")
+    await event.edit("╔═════════╗ \n  𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ \n╚═════════╝")
     
     await asyncio.sleep(6)
 
 CmdHelp('modullar').add_command(
-    'usta', None, ' 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 Usda 💻'
+    'usta', None, ' 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Usda 💻'
 ).add_command(
     'p', '<mətn>', 'Verilən mətni animasiyalı şəkildə yazar'
 ).add_command(

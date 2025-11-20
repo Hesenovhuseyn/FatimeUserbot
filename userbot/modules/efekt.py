@@ -1,3 +1,5 @@
+# sikim senin her birseyini kodda olan birce herif bele gotursen senin yeddi sulaleni sikim
+
 import re
 import requests
 import aiohttp
