@@ -161,7 +161,7 @@ try:
     # PLUGIN MESAJLARI AYARLIYORUZ
     PLUGIN_MESAJLAR = {}
     ORJ_PLUGIN_MESAJLAR = {"alive": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ 𝓐𝓴𝓽𝓲𝓿𝓭𝓲𝓻...",
-                           "malive": "https://files.catbox.moe/dnny3y.mp4",
+                           "malive": "https://files.catbox.moe/ne42oc.mp4",
                            "afk": f"{str(choice(AFKSTR))}", 
                            "kickme": "Bye-bye mən qrupdan çıxdım 🥰", 
                            "pm": UNAPPROVED_MSG, 

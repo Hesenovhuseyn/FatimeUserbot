@@ -156,7 +156,7 @@ LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 # Alive şəkil
 IMG = os.environ.get(
     "IMG",
-    "https://files.catbox.moe/6v33jr.jpg")
+    "https://files.catbox.moe/yxust6.jpg")
 
 # Anti Spambot
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
