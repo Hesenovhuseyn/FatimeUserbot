@@ -1,5 +1,5 @@
 {
-    "__LUNAJSON__": true,
+    "__FATIMEJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "az",
     "AUTHOR": "@HuseynH",
@@ -30,12 +30,12 @@
             "ALREADY_DELETED": "`Plugin faylı artıq silinib.`",
             "NOT_FOUND_PLUGIN": "`Belə bir plugin bəlkə var idi, bəlkədə yox. Ancaq hazırda olmadığı dəqiqdir.`",
             "PLUG_DELETED": "`Plugin uğurla silindi!` **Yenidən başladılır.**",
-            "DTO_PLUGIN_CAPTION": "`Bu` [💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠](https://t.me/LunaDestek) `pluginidir.`"
+            "DTO_PLUGIN_CAPTION": "`Bu` [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) `pluginidir.`"
         },
         
-        "__luna": {
-            "NEED_PLUGIN": "**❗️Zəhmət olmasa düzgün bir** `💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠` **modulu qeyd edin.**\n**ℹ️ Hansısa plugin haqqında məlumat lazımdırsa, əvvəlcə plugini yüklədiyinizdən əmin olun.**",
-            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .luna <modul adı>`"
+        "__fatime": {
+            "NEED_PLUGIN": "**❗️Zəhmət olmasa düzgün bir** `𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡` **modulu qeyd edin.**\n**ℹ️ Hansısa plugin haqqında məlumat lazımdırsa, əvvəlcə plugini yüklədiyinizdən əmin olun.**",
+            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .fatime <modul adı>`"
         },
 
        "extra": {
@@ -82,7 +82,7 @@
             "INVALID_MEDIA": "```Media etibarlı deyil.```",
             "PRIVATE": "`Bu əmr xüsusi mesajda istifadə edilə bilməz!`",
             "EKLE": "`Uğurla əlavə edildi`",
-            "BRAIN": "`Xəta! Bunu` **💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠** `Səlahiyyətli birinə edə bilmərəm.`",
+            "BRAIN": "`Xəta! Bunu` **𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** `Səlahiyyətli birinə edə bilmərəm.`",
             "BANNING": "`İstifadəçi qara siyahıya əlavə edilir...`",
             "ALREADY_GBANNED": "`Xəta! İstifadəçi artıq dünya miqyasında qadağan edilmişdir.`",
             "GBANNED_REASON": "`İstifadəçi dünya miqyasında qadağan edildi!`\n**Səbəbi:**",
@@ -182,7 +182,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s hazırlanır...`",
             "BIO": "⌚️ Saat: {saat} | ",
-            "NICK": "@LunaUserbot",
+            "NICK": "@DevZoneAz",
             "SETTED": "`%s hazırlandı :)`",
             "NAME": " | %s",
             "AUTO1": "ad ya da bio",
@@ -219,8 +219,8 @@
             "EFECTING": "`Effekt hazırlanır...`",
             "NOT_FOUND_EFECT": "**Qeyd etdiyiniz effekt tapılmadı! **`İstifadə edə biləcəyiniz effektlər: ``usaq/robot/earrape/suretli/parazit/yangi`",
             "NEED_VIDEO": "`Zəhmət olmasa bir videoya cavab verin!`",
-            "WITH_DTO":"@LunaUserbot `ilə effekt hazırlandı.`",
-            "WITH_DTO_GIF": "@LunaUserbot `ilə Gif'ə çevrildi.`",
+            "WITH_DTO":"@FatimeUb `ilə effekt hazırlandı.`",
+            "WITH_DTO_GIF": "@FatimeUb `ilə Gif'ə çevrildi.`",
             "CONVERTING_TO_GIF": "Gif'ə çevrilir...",
             "UPLOADING_GIF": "`Gif yüklənir...`",
             "CV1":"Stickeri fotoğrafa çevirər.",
@@ -479,19 +479,19 @@
             "GOODMORNIN_YALL": "`Sabahınız xeyir!`",
             "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürlmə səsi*`",
             "RESTARTING": "`Bot yenidən qoşulur..`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/LunaDestek) Dəstək qrupumuza çata bilərsiniz.",
-            "CREATOR": "Bu bot \n[LUNA](https://t.me/HuseynH) tərəfindən hazırlanmışdır. \n",
-            "README": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
-            "REPO": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/Botlar_Destek) Dəstək qrupumuza çata bilərsiniz.",
+            "CREATOR": "Bu bot \n[Huseyn](https://t.me/HuseynH) tərəfindən hazırlanmışdır. \n",
+            "README": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
+            "REPO": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡",
             "RD1": "<əşya1> <əşya2>",
             "RD2": "Əşya listindən təsadufi bir əşya seçər",
             "RD3": "random dəftər qələm karandaş",
             "SP1": "<vaxt>",
-            "SP2": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 da bir insandır, o da yorulur. Ara bir biraz yatmağına icazə ver.",
+            "SP2": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ da bir insandır, o da yorulur. Ara bir biraz yatmağına icazə ver.",
             "SP3": "sleep 30",
             "SD": "Nostaljik bir şəkildə botunuzu söndürər.",
-            "RP": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 botunun GitHubdakı reposuna gedən bir link.",
-            "RD": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 botunun GitHubdakı README.md faylına gedən bir link.",
+            "RP": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ botunun GitHubdakı reposuna gedən bir link.",
+            "RD": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ botunun GitHubdakı README.md faylına gedən bir link.",
             "CR": "Bu gözəl botu kimin yaratdığını öyrən :-)",
             "RPT1": "<rəqəm> <mətin>",
             "RPT2": "Bir mətini bəlli bir sayıda təkrar edər. Spam əmri ilə qarışdırmayın.",
@@ -735,7 +735,7 @@
             "BLOCKED_DEEZER": "`Mmmh deyəsən` @DeezerMusicBot `bloklamısan zəhmət olmasa bloku aç",
             "INVALID_INDEX": "Seçdiyiniz sıra mövcud deyil!",
             "NOT_FOUND": "`Axtardığınız mahnı tapılmadı! Bağışlayın.`",
-            "UPLOADED_WITH": "@LunaUserbot ilə yükləndi",
+            "UPLOADED_WITH": "@FatimeUb ilə yükləndi",
             "USAGE": "`İstifadəsi:` `.song mahnı ad/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Mahnıların axtarışı və yüklənməsini gözləyin!",
             "DOWNLOADED": "`Yükləmə uğurlu oldu, xahiş edirəm gözləyin.`",
@@ -779,10 +779,10 @@
             "RESULT": "Nəticə",
             "NOT_FOUND": "Heçnə tapılmadı",
             "SS1": "Neofetch modulunu işlədərək sistem məlumatlarını göstərər.",
-            "SS2": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 versiyasını göstərər.",
+            "SS2": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ versiyasını göstərər.",
             "SS3": "<modul(lar)>",
             "SS4": "Pip modullarında axtarış edər.",
-            "SS5": "💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 botunun işləyib işləmədiyini yoxlamaq üçün işlədilir.",
+            "SS5": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ botunun işləyib işləmədiyini yoxlamaq üçün işlədilir.",
             "EXAMPLE": "`Bir nümunə görmək üçün .dto pip əmrindən istifadə edin.`"
         },
 
@@ -808,7 +808,7 @@
             "NOT_FOUND": "qovluğu tapa bilmədi",
             "GIT_ERROR": "Git xətası!",
             "NOT_GIT": "qovluğlu bir git reposu kimi görünmür. \nAncaq botu .update now əmri ilə zorla yeniləməklə bu problemi həll edə bilərsiniz.",
-            "INVALID_BRANCH": "**[Yenilənmə]:**` Düşünürəm ki, 💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan DTÖUserBotunu istifadə edin.`",
+            "INVALID_BRANCH": "**[Yenilənmə]:**` Düşünürəm ki, 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan DTÖUserBotunu istifadə edin.`",
             "UPDATE": "\n`Botun` **Ən güncəl versiyadadır!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} üçün yeni güncəlləmə mövcuddur!\n\nDəyişikliklər:**\n`{}`",
             "BIG": "`Dəyişikliklərin siyahısı çox böyükdür, ona bir fayl kimi baxmalısınız.`",
@@ -817,7 +817,7 @@
             "UPDATING": "`Bot yenilənir...`",
             "INVALID_APPNAME": "`[Yenilənmə] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "`[Yenilənmə]\n💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 UserBotunun daha yaxşı olacağına əmin ola bilərsiniz :) Bu müddət maksimum 10 dəqiqə çəkir.`",
+            "HEROKU_UPDATING": "`[Yenilənmə]\n𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ UserBotunun daha yaxşı olacağına əmin ola bilərsiniz :) Bu müddət maksimum 10 dəqiqə çəkir.`",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
             "UPDATE1": "Botunuza siz quraşdırandan sonra hər hansı bir yenilənmə gəlib gəlmədiyini yoxlayar.",
             "UPDATE2": "Botunuzu yeniləyər.",
@@ -908,7 +908,7 @@
             "ISP": "İnternet xidməti təminatçısı: "
         },
         "userbot": {
-            "LUNA": "`💠 𝐋𝐮𝐧𝐚𝐔𝐬𝐞𝐫𝐛𝐨𝐭 💠 admininə/sahibinə bunu edən bilmərəm.`"
+            "FATIME": "`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ admininə/sahibinə bunu edən bilmərəm.`"
         }
 
     }

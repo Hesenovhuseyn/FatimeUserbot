@@ -1,5 +1,5 @@
 {
-    "__LUNAJSON__": true,
+    "__FATIMEJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "az",
     "AUTHOR": "@HuseynH",
@@ -8,7 +8,7 @@
             "START": "Salam mən 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡! Mən sahibimə (@{username}) kömək olmaq üçün varam, yəni sənə köməkçi ola bilmərəm :/ Ama sən də bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ quraşdıra bilərsən; Qrupa bax @Botlar_Destek",
             "ITITLE": "Xaiş sadəcə .kömek əmri ilə işladin",
             "IHELP": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __💻__\n\n**Yüklənən Modul Sayı:** `{cmdlen}`\n**Səhifə:** 1/{veriler}",
-            "WORK": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __işləyir__\n\n👤 **Sahibim** {LUNA_USER}\n __Qulluğunda hazıram__",
+            "WORK": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __işləyir__\n\n👤 **Sahibim** {FATIME_USER}\n __Qulluğunda hazıram__",
             "UPLOAD": "Fayl uğurlu bir şəkildə {site} saytına yükləndi!\n\nYükləmə zamanı: {time} saniyə\n[‏‏‎ ‎]({link})",
             "IINFO": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek)'u işlətməyi yoxlayın!\nHesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə edə bilmərsiz! Altdakı GitHub adresindən bütün qurulum haqda məlumat var.",
             "LIST": "📱Plugin listi açıldı",
@@ -34,7 +34,7 @@
             "VEDIT": "🔧 **{key}** dəyişdirilməsi\n\n🔹 Mövcud dəyər: `{current_value}`\n\n✏️ Dəyəri dəyişmək üçün:\n`.set var {key} yeni_dəyər`"
         },
         "errors": {
-            "CMD": "⌨️ **Əmr:** {lunatext}\n\n",
+            "CMD": "⌨️ **Əmr:** {fatimetext}\n\n",
             "ERR": "**Xəta baş verdi ❗**\n",
             "LINK": "**ℹ️ Bu log'u** [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Dəstək Qrupuna](https://t.me/Botlar_Destek) **göndərin.**",
             "AB": "**Xətanın nə oluğunu öyrənin**\n",
@@ -78,9 +78,9 @@
             "DTO_PLUGIN_CAPTION": "`Bu` [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) `pluginidir.`"
         },
         
-        "__luna": {
+        "__fatime": {
             "NEED_PLUGIN": "**❗️Zəhmət olmasa düzgün bir** `𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡` **modulu qeyd edin.**\n**ℹ️ Hansısa plugin haqqında məlumat lazımdırsa, əvvəlcə plugini yüklədiyinizdən əmin olun.**",
-            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .luna <modul adı>`"
+            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .fatime <modul adı>`"
         },
 
        "extra": {
@@ -232,7 +232,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s hazırlanır...`",
             "BIO": "⌚️ Saat: {saat} | ",
-            "NICK": "@Botlar_Destek",
+            "NICK": "@DevZoneAz",
             "SETTED": "`%s hazırlandı :)`",
             "NAME": " | %s",
             "AUTO1": "ad ya da bio",
@@ -499,10 +499,10 @@
             "SINGER_LYRICS": "🎙 Qulaqlarınızın paslarını siləcəm! {}'dan {} gəlir!",
             "LY1": "<sənədçi adı> - <musiqi adı>",
             "LY2": "Musiqi sözlərini gətirər.",
-            "LY3": "lyrics Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - LUNA",
+            "LY3": "lyrics Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - FATIME",
             "SG1": "<sənədçi adı> - <musiqi adı>",
             "SG2": "Musiqi oxuyar.",
-            "SG3": "singer Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - LUNA",
+            "SG3": "singer Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - FATIME",
             "SINGER_ENDED": "🎙Çox yaxşı dedim, düzdü?"
         },
 
@@ -833,7 +833,7 @@
             "SS3": "<modul(lar)>",
             "SS4": "Pip modullarında axtarış edər.",
             "SS5": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ botunun işləyib işləmədiyini yoxlamaq üçün işlədilir.",
-            "EXAMPLE": "`Bir nümunə görmək üçün .luna pip əmrindən istifadə edin.`",
+            "EXAMPLE": "`Bir nümunə görmək üçün .fatime pip əmrindən istifadə edin.`",
             "PLUGIN_COUNT": "Plugin Sayı",
             "PERMAMENT": "Ömürlük",
             "PLUGINS": "Pluginlər",
@@ -966,7 +966,7 @@
             "ISP": "İnternet xidməti təminatçısı: "
         },
         "userbot": {
-                "LUNA": "`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ admininə/sahibinə bunu edən bilmərəm.`"
+                "FATIME": "`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ admininə/sahibinə bunu edən bilmərəm.`"
         }
     }
 }

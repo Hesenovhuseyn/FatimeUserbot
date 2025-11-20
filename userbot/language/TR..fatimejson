@@ -1,5 +1,5 @@
 {
-    "__LUNAJSON__": true,
+    "__FATIMEJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "tr",
     "AUTHOR": "@HuseynH",
@@ -8,12 +8,12 @@
             "START": "Merhaba, ben 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡! Sahibime (@{me.username}) yardımcı olmak için buradayım, yani sana yardımcı olamam :/ Ama kendine bir 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ kurabilirsin; Gruba bak @Botlar_Destek",
             "ITITLE": "Lütfen .help komutunu kullanın",
             "IHELP": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __💻__\n\n**Yüklenen Modül Sayısı:** `{cmdlen}`\n**Sayfa:** 1/{veriler}",
-            "WORK": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __çalışıyor__\n\n👤 **Sahibim** {LUNA_USER}\n __Hizmete hazırım__",
+            "WORK": "**𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡** [Botlar_Destek](https://t.me/Botlar_Destek) __çalışıyor__\n\n👤 **Sahibim** {FATIME_USER}\n __Hizmete hazırım__",
             "UPLOAD": "Dosya başarıyla {site} sitesine yüklendi!\n\nYükleme süresi: {time} saniye\n[‏‏‎ ‎]({link})",
             "IINFO": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) kullanmayı deneyin!\nHesabınızı bota dönüştürebilir ve bu özellikleri kullanabilirsiniz. Unutmayın, başkasının botunu yönetemezsiniz! Tüm kurulum bilgileri aşağıdaki GitHub bağlantısında mevcuttur.",
             "LIST": "📱Plugin listesi açıldı",
             "MENU": "📌 Ana menüye dönüldü",
-            "NO": "❌ Hey! Beni elleme! Kendine bir @Botlar_Destek kur.",
+            "NO": "❌ Hey! Beni elleme! Kendine bir @FatimeUserbot kur.",
             "NOC": "❌ Hiçbir uyumlu konfigürasyon bulunamadı!",
             "CLIST": "Konfigürasyon listesi açıldı🛠️",
             "CEDIT": "Konfigürasyon {key} açıldı",
@@ -34,7 +34,7 @@
             "VEDIT": "🔧 **{key}** düzenle\n\n🔹 Mevcut değer: `{current_value}`\n\n✏️ Değeri değiştirmek için: `.set var {key} yeni_değer`"
         },
         "errors": {
-            "CMD": "⌨️ **Komut:** {lunatext}\n\n",
+            "CMD": "⌨️ **Komut:** {fatimetext}\n\n",
             "ERR": "**Bir hata oluştu ❗**\n",
             "LINK": "**ℹ️ Bu log'u** [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Destek Grubuna](https://t.me/Botlar_Destek) **gönderin.**",
             "AB": "**Hatanın ne anlama geldiğini öğrenin**\n",
@@ -76,9 +76,9 @@
             "DTO_PLUGIN_CAPTION": "Bu bir [𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡](https://t.me/Botlar_Destek) pluginidir."
         },
         
-        "__luna": {
+        "__fatime": {
             "NEED_PLUGIN": "**❗️Lütfen doğru bir** `𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡` **modülü belirtin.**\n**ℹ️ Herhangi plugin hakkında bilgi lazımsa, ilk önce plugini indirdiğinizden emin olun.**",
-            "NEED_MODULE": "`Modullar aşağıdadır ⬇️\nKullanım: .luna <modül adı>`"
+            "NEED_MODULE": "`Modullar aşağıdadır ⬇️\nKullanım: .fatime <modül adı>`"
         },
    
        "extra": {
@@ -230,7 +230,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "⌚️ Saat: {saat} | ",
-            "NICK": "@Botlar_Destek",
+            "NICK": "@DevZoneAz",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "| %s",
             "AUTO1": "ad ya da bio",
@@ -402,7 +402,7 @@
 
         "galeri": {
             "ADDED_LIST": "`Fotoğraf sıraya alındı.`",
-            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.luna galeri` `yazınız.`",
+            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.fatime galeri` `yazınız.`",
             "EXAMPLE": "`Lütfen bir resim adresi giriniz. Örnek olarak: ` `.galeri ekle https://files.catbox.moe/unuq2j.jpg`",
             "LIST": "Sıraya Aldığınız Fotoğraflar",
             "REMOVED": "**Sıradaki fotoğraf başarıyla kaldırıldı**",
@@ -410,7 +410,7 @@
             "NEED_NUMBER": "Lütfen resmin sırasını belirtiniz. Örnek:",
             "WORKING": "`Hali hazırda galeri çalışıyor.`",
             "STARTED": "`Galeri çalışmaya başladı.`",
-            "NEED_PHOTO": "Galeri çalışması için fotoğraf eklemeniz gerekmektedir. Eklemeyi bilmiyorsanız .luna galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
+            "NEED_PHOTO": "Galeri çalışması için fotoğraf eklemeniz gerekmektedir. Eklemeyi bilmiyorsanız .fatime galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
             "STOPPED": "`Galeri durduruldu!`",
             "ALREADY_STOP": "`Galeri zaten çalışmıyor.`",
             "GE1": "<url>",
@@ -497,10 +497,10 @@
             "SINGER_LYRICS": "🎙 Kulaklarınız pasını sileceğim! {}'dan {} geliyor!",
             "LY1": "<sanatçı adı> - <şarkı ismi>",
             "LY2": "Şarkı sözlerini getirir.",
-            "LY3": "lyrics Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - LUNA",
+            "LY3": "lyrics Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Family - FATIME",
             "SG1": "<sanatçı adı> - <şarkı ismi>",
             "SG2": "Şarkı söyler.",
-            "SG3": "singer Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ - LUNA",
+            "SG3": "singer Bigieyy ft. 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ - FATIME",
             "SINGER_ENDED": "🎙Çok güzel söyledim, değil mi?"
         },
 
@@ -528,9 +528,9 @@
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
             "SUPPORT_GROUP": "[Buradan](http://t.me/Botlar_Destek) destek grubumuza ulaşabilirsiniz.",
-            "CREATOR": "Bu bot \n[LUNA](https://t.me/HuseynH) tarafından geliştirilmiştir. \n",
-            "README": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ README.md](https://github.com/Hesenovhuseyn/LunaUserbot/blob/master/README.md)",
-            "REPO": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡  Repo](https://github.com/Hesenovhuseyn/LunaUserbot)",
+            "CREATOR": "Bu bot \n[Huseyn](https://t.me/HuseynH) tarafından geliştirilmiştir. \n",
+            "README": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ README.md](https://github.com/Hesenovhuseyn/FatimeUserbot/blob/master/README.md)",
+            "REPO": "[𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡  Repo](https://github.com/Hesenovhuseyn/FatimeUserbot)",
             "RD1": "<eşya1> <eşya2>",
             "RD2": "Eşya listesinden rastgele bir eşya seçer",
             "RD3": "random defter kalem kitap",
@@ -831,7 +831,7 @@
             "SS3": "<modül(ler)>",
             "SS4": "Pip modüllerinde arama yapar.",
             "SS5": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡  botunun çalışıp çalışmadığını kontrol etmek için kullanılır.",
-            "EXAMPLE": "`Bir örnek görmek için .luna pip komutunu kullanın.`",
+            "EXAMPLE": "`Bir örnek görmek için .fatime pip komutunu kullanın.`",
             "ALIVE1": "𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ Aktif",
             "PLUGIN_COUNT": "Plugin Sayı",
             "PERMAMENT": "Kalıcı",
@@ -865,7 +865,7 @@
             "NOT_FOUND": "klasörü bulunamadı.",
             "GIT_ERROR": "Git hatası!",
             "NOT_GIT": "klasörü bir git reposu gibi görünmüyor. \nFakat bu sorunu .update now komutuyla botu zorla güncelleyerek çözebilirsin.",
-            "INVALID_BRANCH": "**[Güncelleyici]:**` Galiba 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡  botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen LunaUserbot'un resmi repodan kullan.`",
+            "INVALID_BRANCH": "**[Güncelleyici]:**` Galiba 𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡  botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen FatimeUserbot'un resmi repodan kullan.`",
             "UPDATE": "\n`Botun` **tamamen güncel!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} için yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
             "BIG": "`Değişiklik listesi çok büyük, dosya olarak görüntülemelisin.`",
@@ -966,7 +966,7 @@
         
         },
         "userbot": {
-                "LUNA": "`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ adminine/sahibine bunu yapamam.`"
+                "FATIME": "`𝐅𝐚𝐭𝐢𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ᥫ᭡ adminine/sahibine bunu yapamam.`"
         }
     }
 }
